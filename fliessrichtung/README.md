@@ -21,7 +21,7 @@ java -jar /Users/stefan/apps/ili2pg-4.4.2/ili2pg-4.4.2.jar \
 ```
 
 ```
-java -jar /home/stefan/apps/ili2pg-4.4.2/ili2pg-4.4.2.jar \
+java -jar /Users/stefan/apps/ili2pg-4.4.2/ili2pg-4.4.2.jar \
 --dbhost localhost --dbport 54321 --dbdatabase edit --dbusr admin --dbpwd admin \
 --dbschema vsadssmini_arrow --models VSADSSMINI_2020_LV95 --modeldir "https://vsa.ch/models;http://models.geo.admin.ch" \
 --defaultSrsCode 2056 --createGeomIdx --sqlEnableNull --createUnique --createEnumTabs --beautifyEnumDispName --createNumChecks --nameByTopic --strokeArcs \
