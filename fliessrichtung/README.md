@@ -26,7 +26,7 @@ java -jar /home/stefan/apps/ili2pg-4.4.2/ili2pg-4.4.2.jar \
 ## Daten
 Die Daten ([`arrow.xtf`](arrow.xtf)) enthalten 9 Knoten und 8 Leitungen. 7 der 8 Leitungen sind entgegen der in den Daten (mittels Assoziationen) erfassten Topologie digitalsiert. In der Mitte befindet sich der "von"-Knoten. In 8 Richtungen (N,W,S,O,NW,SW,SO,NO) gibt es 8 "nach"-Knoten. Folgende Bilder illustrieren die Ausgangslage.
 
-Der Endpunkt einer Leitungsgeometrie wird mit einem Pfeil markiert ([SLD](line_arrow.sld)):
+Der "technische" Endpunkt einer Leitungsgeometrie wird mit einem Pfeil markiert ([SLD](line_arrow.sld)):
 
 ![Ausgangslage Leitungen](leitungen01.png)
 
