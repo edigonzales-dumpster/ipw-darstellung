@@ -8,6 +8,9 @@ Achtung:
 - Die hier verwendete SQL-Query behandelt nur den einfachsten Fall. Wahrscheinlich gibt es verschiedenste Corner Cases. Wohl auch abhängig von der Qualität der Daten (fehlende Geometrien etc. pp.).
 - Die Schriftart muss ein Pfeilsymbol enthalten. Bei Roboto scheint das nicht der Fall zu sein. Es wurde DejaVu Sans verwendet.
 
+TODO:
+- Überprüfen, ob die VendorOption tatsächlich das macht, was ich meine und damit garantiert, dass das Fliessrichtungssymbol korrekt orientiert ist.
+
 
 ## Import
 ```
