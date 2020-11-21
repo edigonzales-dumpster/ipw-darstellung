@@ -4,7 +4,10 @@ Die Leitung (die Polyline) kennt im Datenmodell die Fliessrichtung nicht. Auf de
 
 Die Fliessrichtung steckt in der Topologie, welche im Modell mit zwei Assoziationen (Leitung <-> von/nach Knoten) modelliert ist, errechnet werden. Die Definition der Leitungsgeometrie wird nach dem Datenimport falls nötig umgedreht (`ST_Reverse(geom)`). Dies ist der Fall, falls `ST_StartPoint(verlauf)` nicht der "von"-Knoten-Koordinate entspricht.
 
-Achtung: Die hier verwendete SQL-Query behandelt nur den einfachsten Fall. Wahrscheinlich gibt es verschiedenste Corner Cases. Wohl auch abhängig von der Qualität der Daten (fehlende Geometrien etc. pp.).
+Achtung: 
+- Die hier verwendete SQL-Query behandelt nur den einfachsten Fall. Wahrscheinlich gibt es verschiedenste Corner Cases. Wohl auch abhängig von der Qualität der Daten (fehlende Geometrien etc. pp.).
+- Die Schriftart muss ein Pfeilsymbol enthalten. Bei Roboto scheint das nicht der Fall zu sein. Es wurde DejaVu Sans verwendet.
+
 
 ## Import
 ```
