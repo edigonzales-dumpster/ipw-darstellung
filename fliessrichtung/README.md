@@ -10,7 +10,7 @@ Achtung:
 
 TODO:
 - Überprüfen, ob die VendorOption tatsächlich das macht, was ich meine und damit garantiert, dass das Fliessrichtungssymbol korrekt orientiert ist.
-
+- Dito QGIS
 
 ## Import
 ```
@@ -95,3 +95,10 @@ Version 1: Das eigentliche Label wird zusammen mit dem Pfeil gezeichnet ([SLD](l
 Version 2: Es werden zwei `TextSymbolizer` verwendet ([SLD](line_leitung_v2.sld)). Damit kann das Label separat vom Fliessrichtungssymbol gezeichnet werden. Nachteil hier: Das Fliessrichtungssymbol und das Label _können_ nicht mehr auf der gleichen Zeile gerendert werden (jedenfalls weiss ich nicht wie, vielleicht noch was mit einem offset o.ä.).
 
 ![Leitungen orientiert Labeling v2](leitungen04.png)
+
+
+### Darstellung (QGIS)
+Pfeilsymbol kann copy/pasted werden.
+
+- Placement: Above line und Below line
+- Rendering: Show up side down label = always
