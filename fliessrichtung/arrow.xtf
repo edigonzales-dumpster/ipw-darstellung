@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
+  <HEADERSECTION SENDER="ili2pg-4.4.2-7b1d50437cd6970a801b16d177c4e27151414569" VERSION="2.3">
+    <MODELS>
+      <MODEL NAME="Units" VERSION="2012-02-20" URI="http://www.interlis.ch/models"/>
+      <MODEL NAME="Base" VERSION="05.10.2018" URI="http://www.sia.ch/405"/>
+      <MODEL NAME="Base_LV95" VERSION="05.10.2018" URI="http://www.sia.ch/405"/>
+      <MODEL NAME="SIA405_Base_Abwasser_LV95" VERSION="03.11.2020" URI="http://www.vsa.ch/models"/>
+      <MODEL NAME="VSADSSMINI_2020_LV95" VERSION="09.11.2020" URI="http://www.vsa.ch/models"/>
+    </MODELS>
+  </HEADERSECTION>
+  <DATASECTION>
+    <VSADSSMINI_2020_LV95.VSADSSMini BID="VSADSSMINI_2020_LV95.VSADSSMini">
+      <VSADSSMINI_2020_LV95.VSADSSMini.Knoten TID="deg5mQXX2000004b">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>nachN</Bezeichnung>
+        <Lage>
+          <COORD>
+            <C1>2604500.000</C1>
+            <C2>1226600.000</C2>
+          </COORD>
+        </Lage>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Knoten>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Knoten TID="deg5mQXX2000004a">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>von</Bezeichnung>
+        <Lage>
+          <COORD>
+            <C1>2604500.000</C1>
+            <C2>1226500.000</C2>
+          </COORD>
+        </Lage>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Knoten>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Knoten TID="deg5mQXX2000004h">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>nachO</Bezeichnung>
+        <Lage>
+          <COORD>
+            <C1>2604380.493</C1>
+            <C2>1226496.696</C2>
+          </COORD>
+        </Lage>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Knoten>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Knoten TID="deg5mQXX2000004f">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>nachS</Bezeichnung>
+        <Lage>
+          <COORD>
+            <C1>2604505.707</C1>
+            <C2>1226364.019</C2>
+          </COORD>
+        </Lage>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Knoten>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Knoten TID="deg5mQXX2000004d">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>nachW</Bezeichnung>
+        <Lage>
+          <COORD>
+            <C1>2604632.580</C1>
+            <C2>1226500.013</C2>
+          </COORD>
+        </Lage>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Knoten>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Knoten TID="deg5mQXX2000004i">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>nachNO</Bezeichnung>
+        <Lage>
+          <COORD>
+            <C1>2604424.442</C1>
+            <C2>1226568.839</C2>
+          </COORD>
+        </Lage>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Knoten>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Knoten TID="deg5mQXX2000004c">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>nachNW</Bezeichnung>
+        <Lage>
+          <COORD>
+            <C1>2604576.192</C1>
+            <C2>1226581.278</C2>
+          </COORD>
+        </Lage>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Knoten>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Knoten TID="deg5mQXX2000004e">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>nachSW</Bezeichnung>
+        <Lage>
+          <COORD>
+            <C1>2604588.630</C1>
+            <C2>1226412.114</C2>
+          </COORD>
+        </Lage>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Knoten>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Knoten TID="deg5mQXX2000004g">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>nachSO</Bezeichnung>
+        <Lage>
+          <COORD>
+            <C1>2604414.491</C1>
+            <C2>1226401.334</C2>
+          </COORD>
+        </Lage>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Knoten>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Leitung TID="deg5mQXX2000005a">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>N</Bezeichnung>
+        <Verlauf>
+          <POLYLINE>
+            <COORD>
+              <C1>2604500.000</C1>
+              <C2>1226600.000</C2>
+            </COORD>
+            <COORD>
+              <C1>2604500.000</C1>
+              <C2>1226500.000</C2>
+            </COORD>
+          </POLYLINE>
+        </Verlauf>
+        <Knoten_nachRef REF="deg5mQXX2000004b"/>
+        <Knoten_vonRef REF="deg5mQXX2000004a"/>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Leitung>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Leitung TID="deg5mQXX2000005h">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>NO</Bezeichnung>
+        <Verlauf>
+          <POLYLINE>
+            <COORD>
+              <C1>2604424.442</C1>
+              <C2>1226568.839</C2>
+            </COORD>
+            <COORD>
+              <C1>2604500.000</C1>
+              <C2>1226500.000</C2>
+            </COORD>
+          </POLYLINE>
+        </Verlauf>
+        <Knoten_nachRef REF="deg5mQXX2000004i"/>
+        <Knoten_vonRef REF="deg5mQXX2000004a"/>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Leitung>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Leitung TID="deg5mQXX2000005b">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>NW</Bezeichnung>
+        <Verlauf>
+          <POLYLINE>
+            <COORD>
+              <C1>2604576.192</C1>
+              <C2>1226581.278</C2>
+            </COORD>
+            <COORD>
+              <C1>2604500.000</C1>
+              <C2>1226500.000</C2>
+            </COORD>
+          </POLYLINE>
+        </Verlauf>
+        <Knoten_nachRef REF="deg5mQXX2000004c"/>
+        <Knoten_vonRef REF="deg5mQXX2000004a"/>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Leitung>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Leitung TID="deg5mQXX2000005c">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>W</Bezeichnung>
+        <Verlauf>
+          <POLYLINE>
+            <COORD>
+              <C1>2604632.580</C1>
+              <C2>1226500.013</C2>
+            </COORD>
+            <COORD>
+              <C1>2604500.000</C1>
+              <C2>1226500.000</C2>
+            </COORD>
+          </POLYLINE>
+        </Verlauf>
+        <Knoten_nachRef REF="deg5mQXX2000004d"/>
+        <Knoten_vonRef REF="deg5mQXX2000004a"/>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Leitung>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Leitung TID="deg5mQXX2000005d">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>SW</Bezeichnung>
+        <Verlauf>
+          <POLYLINE>
+            <COORD>
+              <C1>2604588.630</C1>
+              <C2>1226412.114</C2>
+            </COORD>
+            <COORD>
+              <C1>2604500.000</C1>
+              <C2>1226500.000</C2>
+            </COORD>
+          </POLYLINE>
+        </Verlauf>
+        <Knoten_nachRef REF="deg5mQXX2000004e"/>
+        <Knoten_vonRef REF="deg5mQXX2000004a"/>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Leitung>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Leitung TID="deg5mQXX2000005e">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>S</Bezeichnung>
+        <Verlauf>
+          <POLYLINE>
+            <COORD>
+              <C1>2604505.707</C1>
+              <C2>1226364.019</C2>
+            </COORD>
+            <COORD>
+              <C1>2604500.000</C1>
+              <C2>1226500.000</C2>
+            </COORD>
+          </POLYLINE>
+        </Verlauf>
+        <Knoten_nachRef REF="deg5mQXX2000004f"/>
+        <Knoten_vonRef REF="deg5mQXX2000004a"/>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Leitung>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Leitung TID="deg5mQXX2000005f">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>SO</Bezeichnung>
+        <Verlauf>
+          <POLYLINE>
+            <COORD>
+              <C1>2604414.491</C1>
+              <C2>1226401.334</C2>
+            </COORD>
+            <COORD>
+              <C1>2604500.000</C1>
+              <C2>1226500.000</C2>
+            </COORD>
+          </POLYLINE>
+        </Verlauf>
+        <Knoten_nachRef REF="deg5mQXX2000004g"/>
+        <Knoten_vonRef REF="deg5mQXX2000004a"/>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Leitung>
+      <VSADSSMINI_2020_LV95.VSADSSMini.Leitung TID="deg5mQXX2000005g">
+        <Letzte_Aenderung>20201120</Letzte_Aenderung>
+        <Bezeichnung>O</Bezeichnung>
+        <Verlauf>
+          <POLYLINE>
+            <COORD>
+              <C1>2604500.000</C1>
+              <C2>1226500.000</C2>
+            </COORD>
+            <COORD>
+              <C1>2604380.493</C1>
+              <C2>1226496.696</C2>
+            </COORD>
+          </POLYLINE>
+        </Verlauf>
+        <Knoten_nachRef REF="deg5mQXX2000004h"/>
+        <Knoten_vonRef REF="deg5mQXX2000004a"/>
+      </VSADSSMINI_2020_LV95.VSADSSMini.Leitung>
+    </VSADSSMINI_2020_LV95.VSADSSMini>
+  </DATASECTION>
+</TRANSFER>
